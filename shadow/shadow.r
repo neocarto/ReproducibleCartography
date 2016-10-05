@@ -37,15 +37,14 @@ for (i in 1:nb){
 
 opar <- par(mar = c(0,0,1.2,0), mfrow = c(1,1))
 size <- getFigDim(spdf, width = 1500, mar = par("mar"))
-
 png(filename = "/home/nlambert/Documents/R/ReproducibleCartography/shadow/map.png",width = size[1], height = size[2],res=150)
+opar <- par(mar = c(0,0,1.2,0), mfrow = c(1,1))
 
 data("nuts2006")
 
-
 plot(nuts2.spdf, border=NA)
 plot(world.spdf,col="#DBBFB650", border=NA,add=T)
-plot(shadow.spdf,col="#2D3F4580",border="NA",add=T)
+plot(shadow.spdf,col="#2D3F4580",border="NA",add=T) # ici affichage de l'ombre
 
 nuts2.df$unemprate <- nuts2.df$unemp2008/nuts2.df$act2008*100
 choroLayer(spdf = nuts2.spdf,
@@ -57,7 +56,7 @@ choroLayer(spdf = nuts2.spdf,
            border = "#FFFFFF50",
            add = TRUE,
            legend.pos = "topright",
-           legend.title.txt = "Unemployment raten(%)",
+           legend.title.txt = "Unemployment rate\nin 2008 (%)",
            legend.values.rnd = 1,
            lwd=0.3,
            )
