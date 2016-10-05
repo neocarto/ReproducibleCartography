@@ -25,7 +25,7 @@ translate <- function(vertices, dx, dy){
   p2
 }
 
-# On applique la fonction à chaque polygone de l'objet "buff" en définissant les parametres dx et dy
+# On applique la fonction à chaque polygone de l'objet "shadow.spdf" en définissant les parametres dx et dy
 
 dx = 20000 ; dy = -30000
 nb <- length(shadow.spdf@polygons[[1]]@Polygons)
@@ -37,7 +37,7 @@ for (i in 1:nb){
 
 opar <- par(mar = c(0,0,1.2,0), mfrow = c(1,1))
 size <- getFigDim(spdf, width = 1500, mar = par("mar"))
-png(filename = "/home/nlambert/Documents/R/ReproducibleCartography/shadow/map.png",width = size[1], height = size[2],res=150)
+png(filename = "map.png",width = size[1], height = size[2],res=150)
 opar <- par(mar = c(0,0,1.2,0), mfrow = c(1,1))
 
 data("nuts2006")
