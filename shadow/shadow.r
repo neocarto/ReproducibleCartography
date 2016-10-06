@@ -1,5 +1,5 @@
 # COMMENT CREER UNE OMBRE PORTEE ?
-
+getwd()
 # Chargement des packages utiles
 
 library("cartography")
@@ -13,25 +13,11 @@ spdf <- nuts0.spdf
 # Agrégation des géométries 
 
 buff.spdf <- gBuffer(spgeom=spdf, byid=FALSE, id=NULL, width=1.0, quadsegs=5, capStyle="ROUND", joinStyle="ROUND", mitreLimit=1.0)
-shadow.spdf <- buff.spdf
 
-# Création d'une fonction de translation
 
-translate <- function(vertices, dx, dy){
-  p <- vertices
-  p2 <- p
-  p2[,1] <- p[,1] + dx 
-  p2[,2] <- p[,2] + dy
-  p2
-}
-
-# On applique la fonction à chaque polygone de l'objet "shadow.spdf" en définissant les parametres dx et dy
-
-dx = 20000 ; dy = -30000
-nb <- length(shadow.spdf@polygons[[1]]@Polygons)
-for (i in 1:nb){
-  shadow.spdf@polygons[[1]]@Polygons[[i]]@coords <- translate(shadow.spdf@polygons[[1]]@Polygons[[i]]@coords, dx, dy)
-}
+# Translation
+x = 20000 ; y = -30000
+shadow.spdf <- raster::shift(buff.spdf, x, y)
 
 # On dessine la carte (carte basé sur un exemple du package cartography)
 
