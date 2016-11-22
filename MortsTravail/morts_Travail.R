@@ -2,7 +2,7 @@ library("cartography")
 library("rgdal")
 
 
-setwd("/home/nlambert/Documents/R/ReproducibleCartography/MortsTravail")
+setwd("")
 
 # Fond de carte
 data("nuts2006")
