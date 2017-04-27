@@ -1,0 +1,27 @@
+Nous avions parlé d'une cartographie pour les centres de santé. La pièce jointe avec les commentaires et précisions du délégué général sont-elles de nature à te donner les éléments nécessaires à une telle cartographie ? Si cela te parait confus ou inutile, on ne le fait pas. Si ça ne te pose pas de problème... on essaie. Rien d'urgent.
+On en parle.
+ML
+---------- Message transféré ----------
+De : Délégué général <delegue.general@fncs.org>
+Date : 12 janvier 2017 à 18:21
+Objet : Analyse fichier CNAMTS CDS polyvalents ou medicaux
+
+J'ai travaillé sur le dernier fichier de la CNAMTS pour le suivi de l'AN (ayant un n° FINESS de CDS, et ayant adhéré ou non à l'AN) qui ne concerne que les CDS medicaux ou polyvalents (692 lignes sur 1950 centres au total) en détaillant la typologie des gestionnaires et des centres (voir les codes couleur en fin de tableau (ligne 1936):
+
+- dans les "associatifs ou fondations" (env 150), une cinquantaine d'entre eux ne sont en réalité ni polyvalents (dont une quarantaine de dentaires, surtout à Paris et quelques CSI) , ni médicaux, 
+- la réalité du portage associatif est assez théorique et recouvre des réalités très différentes, entre des modèles très entrepreneuriaux et à finalité très lucrative et des centres dédiés à des patients en grande difficulté sociale portés par des associations de taille modeste, souvent caritatives, religieuses et quelques fois communautaires dont l'équilibre budgétaire est un souci permanent. Le modele de portage associatif, citoyen ou caritatif n'est pas présent en zones rurales. Plusieurs centres de création récente sont portés par des fondations gérant déjà des dispositifs ou établissements médico sociaux (EHPAD en particulier).
+- le régime des mines est, de loin (170), le principal gestionnaire des ces CDS médicaux ou polyvalents, ses centres sont de taille très réduite (très souvent 1 MG + qqs consultations spécialisées) et sont présents massivement  dans seulement une poignée de régions; Ce réseau est stable ou ne légère décroissance,
+- le nombre des CMS (ou intercos ou para municipaux (gérés CCAS)), environ 150, est en croissance assez nette dans les zones non urbaines, et en léger recul dans les banlieues, où se situent les centres qui comptent, en moyenne, le plus grand nombre de professionnels. L'IDF et Grenoble concentrent la quasi totalité de ces centres historiques et le développement récent de nouveaux CMS dans des villes moyennes hors IDF ou en zones rurales n'a pas encore permis d'étendre le modèle dans toutes les régions. 
+- la Mutualité est sortie de la médecine générale et massivement présente dans le dentaire (même pour ses centres restant polyvalents). Ses CDS polyvalents sont surtout présents à Paris, BDR et en Rhone Alpes.
+- le fort développement des centres étudiants (40) et de dialyses (22) est observable dans les 6 derniers mois, porté par la LMSS, qui a crée ces catégories nouvelles,
+- une trentaine de CDS sont portés ou gérés par des établissements de santé hospitaliers, soit une douzaine par des CH publics (dont 2 psys) hors T2A, et une vingtaine par des ES privés PSPH (fort développement récent). L'ouverture sur les besoins des publics de ville (souvent à la demande des ARS) est plutôt l’apanage des premiers, les activités hospitalo centrées, celles des seconds. Ces CDS sont plutôt situés en zones rurales ou dans des petites villes,
+- peu connus et valorisés par les autorités sanitaires, les centres dépendants de CE d'entreprises publiques ou de secteurs professionnels (20) ou les centres de médecine du sport (10) sont souvent implantés depuis de nombreuses années, 
+
+- un gros tiers de l'ensemble de ces centres comptabilisés par la CNAMTS comme médicaux ou polyvalents sont situés en IDF (251/692, dont 85 à Paris, 63 dans le 93 et 42 dans le 92). 
+
+- A l'inverse, 5 régions comptabilisent moins de 7 centres (Basse Normandie, Champagne Ardennes, Corse, Limousin et Picardie) et 7 autres, entre 10 et 12 centres (Aquitaine, Auvergne, Bretagne, Centre, Franche Compté, Haute Normandie et Poitou Charentes),
+
+- Le Nord Pas de Calais est la 2° région d'implantation avec 73 centres (dont 60 miniers), suivent, Rhône Alpes, 65, Lorraine 49 (dont 46 miniers) et PACA (33),
+
+- 12 centres médicaux ou polyvalents sont comptabilisés dans les territoires ultra marins (8 en Martinique, 3 en Guadeloupe, 1 à St pierre et Miquelon), 
+
